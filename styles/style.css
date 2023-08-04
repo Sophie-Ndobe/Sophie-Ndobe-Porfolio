@@ -1,13 +1,12 @@
 :root {
   --heading-font: "Playfair Display", serif;
   --content-font: "Poppins", sans-serif;
-  --branding-color: #6d42c7;;
+  --branding-color: #6d42c7;
   --background-color: #8aacff;
 }
 body {
   font-family: var(--content-font);
   color: black;
-  
 }
 h1,
 h2,
@@ -46,17 +45,33 @@ h2 {
   margin: 0;
 }
 .btn-branding {
- background: var(--background-color);
-    color: white;
-    padding: 20px 40px;
-    font-size: 18px;
-    line-height: 27px;
+  background: var(--branding-color);
+  color: black;
+  padding: 20px 40px;
+  font-size: 18px;
+  line-height: 27px;
+  transition: All 200ms ease-in-out;
 }
+.btn-branding:hover {
+  background: var(--branding-color);
+  color: white;
 }
-
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  color: black;
+  padding: 20px 40px;
+  font-size: 18px;
+  line-height: 27px;
+  transition: All 200ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
+}
 .brands {
-    color: #e85b48;
-    font-size: 40px ;
+  color: #e85b48;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 @media (max-width: 900px) {
   h1 {
