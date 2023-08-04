@@ -32,6 +32,20 @@ p {
   opacity: 70%;
   line-height: 30px;
 }
+
+nav ul {
+  display:flex;
+  list-style: none;
+  padding:15px 0 0 0;
+  margin: 0;
+}
+nav li {
+  margin-left: 20px;  
+}
+.active {
+  color: var(--branding-color);
+  font-weight: bold;
+}
 footer {
   background: var(--background-color);
   margin-top: 100px;
@@ -57,6 +71,10 @@ small a {
   margin-left: 5px;
 }
 
+.nav-background {
+  background: #ea8b7f;
+}
+
 .page-hero {
   text-align: center;
   padding: 100px 20px;
@@ -72,7 +90,7 @@ small a {
 
 .page-hero p {
   font-size: 36px;
-  opacity: 70%;
+  color: var(--secondary-color);
   font-weight: bold;
   margin: 0;
 }
