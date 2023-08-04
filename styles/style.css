@@ -1,8 +1,9 @@
 :root {
   --heading-font: "Playfair Display", serif;
   --content-font: "Poppins", sans-serif;
-  --branding-color: #6d42c7;
-  --background-color: #8aacff;
+  --branding-color: #6c63ff;
+  --background-color: #f0fbff;
+  --secondary-color: #e85b48;
 }
 body {
   font-family: var(--content-font);
@@ -23,6 +24,37 @@ h1 {
 }
 h2 {
   font-size: 64px;
+}
+h3 {
+  font-size: 48px;
+}
+p {
+  opacity: 70%;
+  line-height: 30px;
+}
+footer {
+  background: var(--background-color);
+  margin-top: 100px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+footer p {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+footer .handshake {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+footer .btn-branding {
+  margin: 30px 0 0 140px;
+}
+small a {
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 .page-hero {
@@ -53,7 +85,7 @@ h2 {
   transition: All 200ms ease-in-out;
 }
 .btn-branding:hover {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   color: white;
 }
 .btn-branding-outline {
@@ -65,14 +97,43 @@ h2 {
   transition: All 200ms ease-in-out;
 }
 .btn-branding-outline:hover {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   color: white;
 }
+.project-into-paragraph {
+  color: var(--secondary-color);
+  font-weight: bold;
+  opacity: 100%;
+}
 .brands {
-  color: #e85b48;
+  color: var(--secondary-color);
   font-size: 30px;
   margin-bottom: 20px;
 }
+.SheCodes-link {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+.contact-details .email-link {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--branding-color);
+  margin: 10px 0 30px 0;
+}
+.contact-details .email-link:hover {
+  color: var(--secondary-color)
+}
+.contact-details .social-links {
+  font-size: 25px;
+  color: var(--branding-color);
+  transition: All 200ms ease-in-out;
+}
+.contact-details .social-links:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 46px;
