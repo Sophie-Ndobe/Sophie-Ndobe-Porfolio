@@ -41,11 +41,9 @@ nav ul {
 }
 nav li {
   margin-left: 20px;
+  color: black;
 }
-.active {
-  color: var(--branding-color);
-  font-weight: bold;
-}
+
 footer {
   background: var(--background-color);
   margin-top: 100px;
@@ -65,10 +63,41 @@ footer .handshake {
 footer .btn-branding {
   margin: 30px 0 0 140px;
 }
+small {
+  text-align: center;
+}
 small a {
   color: var(--secondary-color);
   font-weight: bold;
   margin-left: 5px;
+}
+.page-content {
+  margin-top: 100px;
+}
+.page-content h1 {
+  font-size: 64px;
+  line-height: 70px;
+}
+
+.page-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: var(--content-font);
+}
+.coding-technologies{
+  color: var(--secondary-color);
+}
+.photo {
+  border-radius: 6px;
+  margin-left: 50px;
+
+}
+.navigation-link {
+  text-decoration: none;
+}
+.active {
+  color: var(--branding-color);
+  font-weight: bold;
 }
 
 .nav-background {
