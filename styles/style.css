@@ -256,6 +256,12 @@ small a {
     margin: 20px auto;
     display: block;
   }
+ .row-break {
+  margin-bottom: 15px;
+ }
+  .weather-img {
+    margin-bottom: 20px;
+  }
   .hobbie-project-img {
     display: block;
     margin:auto;
