@@ -200,6 +200,14 @@ small a {
   display: block;
   margin: auto;
 }
+.contact-brand {
+  font-size: 50px;
+  color:var(--secondary-color)
+}
+.contact-brand:hover {
+  font-size: 50px;
+  color:var(--branding-color)
+}
 
 @media (max-width: 900px) {
   h1 {
